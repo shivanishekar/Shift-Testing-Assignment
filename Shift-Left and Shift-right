@@ -1,0 +1,55 @@
+1.What is Shift-Left Testing?
+
+Shift-Left Testing means testing activities are moved earlier in the Software Development Life Cycle (SDLC).
+Instead of testing only after development, testing starts from the requirement and design phase itself.
+Testing starts early and focus on preventing defects
+Developers and testers work together
+Mostly used in Agile & DevOps
+
+Example:
+If you are building a login page:
+In Shift-Left, tester reviews requirement:
+Should password be minimum 8 characters?
+Should it allow special characters?
+Issues are found before coding starts.
+
+Advantages:
+Early bug detection
+Reduced cost of fixing defects
+Better product quality
+Less rework
+
+Disadvantages:
+Requires skilled testers
+Requires strong collaboration
+
+->What is Shift-Right Testing?
+
+Shift-Right Testing means testing is performed after the product is released or in the production environment.
+It focuses on monitoring real-time user behavior and performance.
+Testing after deployment and Focus on user experience
+Includes monitoring, performance testing
+Used in DevOps & Continuous Delivery
+
+Example:
+After releasing a shopping app:
+Monitor how many users face payment failure
+Check app crashes
+Analyze performance during peak time
+
+Advantages:
+Real-time feedback
+Improves customer experience
+Detects production issues
+
+Disadvantages:
+Bugs are found late
+May affect real users
+
+Difference Between Shift-Left and Shift-Right Testing
+   Basis	                            Shift-Left Testing	                               Shift-Right Testing
+When Testing Happens            Before coding / Early stages	                            After deployment
+Main Focus	                        Defect Prevention	                            User Experience & Monitoring
+Environment	                          Development	                                             Production
+Cost of Bug Fix	                        Low	                                                      High
+Example	                           Requirement review	                               Monitoring app crash reports
