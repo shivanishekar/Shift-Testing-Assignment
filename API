@@ -1,0 +1,63 @@
+2. Explain in Detail about API
+
+-> What is API?
+       API (Application Programming Interface) is a medium that allows two software applications to communicate with each other.
+       It works like a messenger that takes request from one system and gives response from another system.
+
+Real Life Example
+When you use a food delivery app:
+You select restaurant
+App sends request to restaurant server
+Server sends menu details back
+That communication happens through API.
+
+Technical Example
+When you login to an application:
+You enter username & password
+Frontend sends request to backend API
+API verifies credentials from database
+API sends response: Success / Failure
+
+->Types of API
+        ->REST API
+Most commonly used
+Uses HTTP methods
+Lightweight
+Uses JSON format
+
+        ->SOAP API
+Uses XML format
+More secure
+Mostly used in banking systems
+
+      ->Common HTTP Methods in API
+Method	Purpose
+GET	Retrieve data
+POST	Create new data
+PUT	Update existing data
+DELETE	Delete data
+
+        ->API Testing
+API Testing is done to check:
+Response status code (200, 400, 500)
+Response time
+Data correctness
+Security
+Error handling
+
+Example Test Cases:
+Verify login API with valid credentials → Expect 200 OK
+Verify login API with wrong password → Expect 401 Unauthorized
+Verify API response time is less than 2 seconds
+Verify API does not expose sensitive data
+
+Tools Used for API Testing
+Postman
+Swagger
+JMeter
+
+Advantages of API
+Faster communication
+Reusable
+Secure (with authentication)
+Enables integration between systems
